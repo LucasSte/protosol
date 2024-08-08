@@ -51,6 +51,7 @@ message AcctState {
 // On "real" ledgers, it is created during the epoch boundary.
 message EpochContext {
   FeatureSet features = 1;
+  fixed64 epoch = 2;
 }
 
 
